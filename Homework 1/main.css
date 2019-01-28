@@ -1,0 +1,51 @@
+/* the styles for the elements */
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	background-color: white;
+}
+body {
+	margin: 0 auto;
+}
+
+.align img, p {
+	vertical-align: top;
+}
+.align p {
+	max-width: 600px;
+	padding: 5px;
+	text-align: justify;
+	text-justify: auto;
+}
+.align img {
+	float: left;
+	padding: 5px 10px 5px 5px;
+	
+	
+}
+.attending p {
+	clear: both;
+	max-width: 610px;
+	padding: 0 5px;
+	
+}
+
+.tech {
+	padding-top: 20px;
+}
+
+ol {
+	display: block;
+  	list-style-type: disc;
+  	margin-top: 1em;
+  	margin-bottom: 1em;
+  	padding-left: 60px;
+}
+
+/* the styles for the header */
+header {
+	text-align: center;
+	padding: 10px;
+}
