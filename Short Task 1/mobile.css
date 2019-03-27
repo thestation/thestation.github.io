@@ -1,0 +1,30 @@
+body {
+	border:0; margin:0; padding:0;
+}
+
+dl {
+	display: block;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-left: 1em;
+	margin-right: 1em;
+	width: 100%;
+}
+dt {
+    font-weight: bold;
+	text-decoration: underline;
+	margin-bottom: .4em;
+	color: green;
+}
+dd {
+    margin: 0;
+	padding: 0 0 0.5em 0;
+	color: teal;
+}
+h2 {
+		font-size: 1.25em;
+		text-align: center;
+		margin: .3em;
+		width: 100%;
+		color: midnightblue;
+	}	
