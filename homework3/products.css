@@ -19,16 +19,22 @@
 .panels {
     margin-bottom: 60px;
 }
-#collapse .panel-title > a:before{
-    float: left !important;
+.panels .panel-title > a:before {
+    float: left;
     font-family: FontAwesome;
     content:"\f068";
     padding-right: 10px;
 }
 
-#collapse .panel-title > a.collapsed:before {
+.panels .panel-title > a.collapsed:before {
     float: left !important;
+    content:"\f067";
+}
+#collapse .panel-title > a:before{
+    float: left !important;
+    font-family: FontAwesome;
     content:"\f129";
+    padding-right: 10px;
 }
 .panel-title > a:hover, 
 .panel-title > a:active, 
