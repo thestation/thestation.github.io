@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="service-worker.js"></script>
+    <title>Background Change</title>
+</head>
+<body>
+    <h1>Change the Background</h1>
+    <div class="dropdown">
+       <button class="dropbtn">Background Change</button>
+       <div class="dropdown-content">
+            <a id="one">Light gold</a>
+            <a id="two">Light blue</a>
+            <a id="reset">Reset</a>
+       </div>
+    </div>
+    <script>
+    $("#one").click(function() {
+    $("body").css("background-image", "url(img/lightgold.jpg)");
+    });
+  
+    $("#two").click(function() {
+    $("body").css("background-image", "url(img/lightblue.jpg)");
+    });
+  
+    $("#reset").click(function() {
+    $("body").css("background-color", "white");
+    $("body").css("background-image", "none");
+    });
+    </script>
+</body>
+</html>
