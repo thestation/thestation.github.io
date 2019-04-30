@@ -19,6 +19,10 @@
        </div>
     </div>
     <script>
+    if(navigator.serviceWorker) {
+              navigator.serviceWorker.register('service-worker.js');
+	   }
+        
     $("#one").click(function() {
     $("body").css("background-image", "url(img/lightgold.jpg)");
     });
