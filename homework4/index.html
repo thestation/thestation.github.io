@@ -9,7 +9,16 @@
     <title>Background Change</title>
 </head>
 <body>
-    <h1>Change the Background</h1>
+    <h1>Progressive Web App</h1>
+    <p>
+        This webpage uses a service worker which makes it a progressive web app. 
+        It means it can use the features of a device and browser that enhance the experience for the user. 
+        First of all its easier to find then a regular application because its on a search engine.
+        It still works like an application and can even work offline. 
+        To update the web app all the user has to do is connect to wifi.
+        A PWA must be hosted on HTTPS for the safety and security of the user. 
+        All in all a progressive web app is reponsive, safe, and independent.
+    </p>
     <div class="dropdown">
        <button class="dropbtn">Background Change</button>
        <div class="dropdown-content">
@@ -19,7 +28,7 @@
        </div>
     </div>
     <script>
-    if(navigator.serviceWorker) {
+    if (navigator.serviceWorker) {
               navigator.serviceWorker.register('service-worker.js');
 	   }
         
