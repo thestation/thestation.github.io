@@ -19,6 +19,7 @@
 .panels {
     margin-bottom: 60px;
 }
+
 .panels .panel-title > a:before {
     float: left;
     font-family: FontAwesome;
@@ -30,12 +31,14 @@
     float: left !important;
     content:"\f067";
 }
+
 #collapse .panel-title > a:before{
     float: left !important;
     font-family: FontAwesome;
     content:"\f129";
     padding-right: 10px;
 }
+
 .panel-title > a:hover, 
 .panel-title > a:active, 
 .panel-title > a:focus  {
