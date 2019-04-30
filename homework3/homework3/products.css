@@ -1,0 +1,46 @@
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css");
+
+/* The navigation bar */
+.navbar {
+    background-color: #333;
+    width: 100%; 
+}
+  
+  /* Links inside the navbar */
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.panels {
+    margin-bottom: 60px;
+}
+
+.panels .panel-title > a:before {
+    float: left;
+    font-family: FontAwesome;
+    content:"\f068";
+    padding-right: 10px;
+}
+
+.panels .panel-title > a.collapsed:before {
+    float: left !important;
+    content:"\f067";
+}
+
+#collapse .panel-title > a:before{
+    float: left !important;
+    font-family: FontAwesome;
+    content:"\f129";
+    padding-right: 10px;
+}
+
+.panel-title > a:hover, 
+.panel-title > a:active, 
+.panel-title > a:focus  {
+    text-decoration:none;
+}
